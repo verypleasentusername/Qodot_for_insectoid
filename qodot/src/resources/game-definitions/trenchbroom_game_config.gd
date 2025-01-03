@@ -34,7 +34,7 @@ extends Resource
 
 ## FGD resource to include with this game. If using multiple FGD resources, this should be the master FGD that contains them in the `base_fgd_files` resource array. 
 ## Use only one FGD resource. Using multiple FGDs in this array does not work as intended but is left as an array for backwards compatibility.
-@export var fgd_files : Array[Resource] = [preload("res://Scenes/Entites/Definitions/INSECTOID.tres")]
+@export var fgd_files : Array[Resource] = [preload("res://addons/qodot/game_definitions/fgd/qodot_fgd.tres")]
 
 ## Scale expression that modifies the default display scale of entities in Trenchbroom. See the [**Trenchbroom Documentation**](https://trenchbroom.github.io/manual/latest/#game_configuration_files_entities) for more information.
 @export var entity_scale: String = "1"
@@ -50,9 +50,6 @@ extends Resource
 
 ## Container for TrenchbroomTag resources that apply to textures.
 @export var face_tags : Array[Resource] = []
-
-## Private variable for storing fgd names, used in build_class_text().
-var _fgd_filenames : Array = []
 
 ## Private default .cfg contents.
 ## See also: https://trenchbroom.github.io/manual/latest/#game_configuration_files

@@ -19,13 +19,16 @@ func do_export_file():
 
 				if fgd_name == "":
 					print("Skipping export: Empty FGD name")
-
+					return
+				
 				var fgd_file = target_folder + "/" + fgd_name + ".fgd"
 
 				print("Exporting FGD to ", fgd_file)
 				var file_obj := FileAccess.open(fgd_file, FileAccess.WRITE)
 				file_obj.store_string(build_class_text())
 				file_obj.close()
+	else:
+				print("ERROR: FGD" + resource_name + " is non-existent")
 @export_global_dir var target_folder : String # (String, DIR, GLOBAL)
 @export var fgd_name: String = "Qodot"
 @export var base_fgd_files: Array[Resource] = [] # (Array, Resource)

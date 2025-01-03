@@ -25,4 +25,4 @@ export_file = false
 target_folder = "E:/TrenchBroom-Win64-v2024.1-RC1-Release/games/INSECTOID"
 fgd_name = "Base_classes"
 base_fgd_files = Array[Resource]([])
-entity_definitions = Array[Resource]([ExtResource("1_3n4dh"), ExtResource("2_shhom"), ExtResource("3_c62se"), ExtResource("4_h8tlr"), ExtResource("5_t1aqv"), ExtResource("6_a44bs"), ExtResource("7_5vpli"), ExtResource("8_008lt"), ExtResource("9_1i8c0"), ExtResource("10_yick4"), ExtResource("11_tvby8"), ExtResource("12_la2wf"), ExtResource("13_ojfph"), ExtResource("14_5cxvi"), ExtResource("15_s64rc"), ExtResource("16_7f4rq"), ExtResource("17_kko1n")])
+entity_definitions = Array[Resource]([ExtResource("1_3n4dh"), ExtResource("2_shhom"), ExtResource("3_c62se"), ExtResource("4_h8tlr"), ExtResource("5_t1aqv"), ExtResource("6_a44bs"), ExtResource("7_5vpli"), ExtResource("8_008lt"), ExtResource("9_1i8c0"), ExtResource("10_yick4"), ExtResource("12_la2wf"), ExtResource("13_ojfph"), ExtResource("14_5cxvi"), ExtResource("15_s64rc"), ExtResource("16_7f4rq"), ExtResource("17_kko1n"), ExtResource("11_tvby8")])
